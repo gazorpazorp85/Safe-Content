@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-size: large;
+}
+
+.admincontainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.tableheader {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tableheader div {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
+
+.headlog {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.headuser {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70vw;
+}
+
+.user, .password, .lastlog {
+    border-bottom: 2px solid black;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
+
+.lastlog {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.user {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.logout, .back {
+    color: white;
+    background-color: DarkTurquoise;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}

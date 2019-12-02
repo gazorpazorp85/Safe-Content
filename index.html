@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Safe Content</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+    <div class="modal"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to this super dooper top secret website!</h1>
+        </div>
+        <div class="imagecontainer">
+            <img src="img/login-page.png">
+        </div>
+        <div class="logincontainer">
+            <input type="text" class="user" placeholder="Username"><br>
+            <input type="password" class="pass" placeholder="Password"><br>
+            <button class="login" type="submit" onclick="doLogin()">Login</button>
+        </div>
+    </div>
+
+    <div class="userpage">
+
+    </div>
+    <script src="js/storageService.js"></script>
+    <script src="js/safeService.js"></script>
+    <script src="js/safeController.js"></script>
+    <script src="js/adminSafeService.js"></script>
+</body>
+
+</html>
